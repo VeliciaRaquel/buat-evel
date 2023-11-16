@@ -1,0 +1,56 @@
+/* styles.css */
+
+#popupContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff6b6b, #4158d0);
+    justify-content: center;
+    align-items: center;
+}
+
+#popupContent {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Set the content to a column layout */
+}
+
+.image-container {
+    margin-bottom: 0px; /* Increase the margin to add more space */
+}
+
+.popup-image {
+    max-width: 90%;
+    max-height: auto;
+    border-radius: 8px;
+}
+
+.vaporwave {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px #4158d0;
+}
+
+.vaporwaveButton {
+    background: linear-gradient(135deg, #ff6b6b, #4158d0);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 0px; /* Add margin-top to the button for space */
+}
+
+.vaporwaveButton:hover {
+    background: linear-gradient(135deg, #4158d0, #ff6b6b);
+}
+
